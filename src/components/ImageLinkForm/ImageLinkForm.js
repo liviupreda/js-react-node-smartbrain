@@ -5,9 +5,7 @@ const ImageLinkForm = () => {
   return (
     <div>
       <p className='f3'>
-        {
-          'Greetings, puny mortal... Give me the picture of a human... I will show you its face...'
-        }
+        {"Give me the picture of a human, I'll highlight the face for you!"}
       </p>
       <div className='center'>
         <div className='form center pa4 br3 shadow-5'>
