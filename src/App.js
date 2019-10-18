@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
 import Navigation from './components/Navigation/Navigation';
+import SignIn from './components/SignIn/SignIn';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
@@ -30,7 +31,8 @@ class App extends Component {
     this.state = {
       input: '',
       imageUrl: '',
-      box: {}
+      box: {},
+      route: 'signin'
     };
   }
 
@@ -48,7 +50,7 @@ class App extends Component {
     const image = document.getElementById('input__image');
     const width = Number(image.width);
     const height = Number(image.height);
-    console.log(width, height);
+    // console.log(width, height);
 
     // So we need to calculate the coords of the face box(es)
     // and draw it as a rectangular border
@@ -84,13 +86,22 @@ class App extends Component {
       <div className='App'>
         <Particles className='particles' params={particleParams} />
         <Navigation />
-        <Logo />
-        <Rank />
-        <ImageLinkForm
-          onInputChange={this.onInputChange}
-          onButtonSubmit={this.onButtonSubmit}
-        />
-        <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl} />
+        {this.state.route === 'signin' ? (
+          <SignIn />
+        ) : (
+          <>
+            <Logo />
+            <Rank />
+            <ImageLinkForm
+              onInputChange={this.onInputChange}
+              onButtonSubmit={this.onButtonSubmit}
+            />
+            <FaceRecognition
+              box={this.state.box}
+              imageUrl={this.state.imageUrl}
+            />
+          </>
+        )}
       </div>
     );
   }
