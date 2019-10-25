@@ -15,7 +15,7 @@ class SignIn extends Component {
     this.setState({ signInPassword: e.target.value });
   };
 
-  onSubmitSignIn = e => {
+  onSubmitSignIn = () => {
     fetch('http://localhost:3000/signin', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
