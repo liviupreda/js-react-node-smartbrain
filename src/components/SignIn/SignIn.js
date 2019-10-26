@@ -18,6 +18,7 @@ class SignIn extends Component {
   onSubmitSignIn = () => {
     fetch('https://obscure-river-22492.herokuapp.com/signin', {
       method: 'post',
+      // test
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         email: this.state.signInEmail,
