@@ -12,7 +12,7 @@
     "react-tilt": "^0.1.4",
     "tachyons": "^4.11.1"
   },
-  "homepage": "https://liviupreda.github.io/js-react-node-smartbrain",
+  "homepage": "https://liviupreda.github.io/react-node-smartbrain/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build && rm -rf docs && mv build docs",

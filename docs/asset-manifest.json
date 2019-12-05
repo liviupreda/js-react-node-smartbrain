@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/js-react-node-smartbrain/static/css/main.a9d60536.chunk.css",
-    "main.js": "/js-react-node-smartbrain/static/js/main.6615743e.chunk.js",
-    "main.js.map": "/js-react-node-smartbrain/static/js/main.6615743e.chunk.js.map",
-    "runtime-main.js": "/js-react-node-smartbrain/static/js/runtime-main.0b2d3d12.js",
-    "runtime-main.js.map": "/js-react-node-smartbrain/static/js/runtime-main.0b2d3d12.js.map",
-    "static/css/2.eb45ad44.chunk.css": "/js-react-node-smartbrain/static/css/2.eb45ad44.chunk.css",
-    "static/js/2.2ef18312.chunk.js": "/js-react-node-smartbrain/static/js/2.2ef18312.chunk.js",
-    "static/js/2.2ef18312.chunk.js.map": "/js-react-node-smartbrain/static/js/2.2ef18312.chunk.js.map",
-    "index.html": "/js-react-node-smartbrain/index.html",
-    "precache-manifest.c7b09cf6423dbec9f15c79dd0dc3f623.js": "/js-react-node-smartbrain/precache-manifest.c7b09cf6423dbec9f15c79dd0dc3f623.js",
-    "service-worker.js": "/js-react-node-smartbrain/service-worker.js",
-    "static/css/2.eb45ad44.chunk.css.map": "/js-react-node-smartbrain/static/css/2.eb45ad44.chunk.css.map",
-    "static/css/main.a9d60536.chunk.css.map": "/js-react-node-smartbrain/static/css/main.a9d60536.chunk.css.map",
-    "static/media/brain.png": "/js-react-node-smartbrain/static/media/brain.87466cd4.png"
+    "main.css": "/react-node-smartbrain/static/css/main.a9d60536.chunk.css",
+    "main.js": "/react-node-smartbrain/static/js/main.49b270fe.chunk.js",
+    "main.js.map": "/react-node-smartbrain/static/js/main.49b270fe.chunk.js.map",
+    "runtime-main.js": "/react-node-smartbrain/static/js/runtime-main.c0273d62.js",
+    "runtime-main.js.map": "/react-node-smartbrain/static/js/runtime-main.c0273d62.js.map",
+    "static/css/2.eb45ad44.chunk.css": "/react-node-smartbrain/static/css/2.eb45ad44.chunk.css",
+    "static/js/2.2ef18312.chunk.js": "/react-node-smartbrain/static/js/2.2ef18312.chunk.js",
+    "static/js/2.2ef18312.chunk.js.map": "/react-node-smartbrain/static/js/2.2ef18312.chunk.js.map",
+    "index.html": "/react-node-smartbrain/index.html",
+    "precache-manifest.a581ec5f49f06856699775324a4d6054.js": "/react-node-smartbrain/precache-manifest.a581ec5f49f06856699775324a4d6054.js",
+    "service-worker.js": "/react-node-smartbrain/service-worker.js",
+    "static/css/2.eb45ad44.chunk.css.map": "/react-node-smartbrain/static/css/2.eb45ad44.chunk.css.map",
+    "static/css/main.a9d60536.chunk.css.map": "/react-node-smartbrain/static/css/main.a9d60536.chunk.css.map",
+    "static/media/brain.png": "/react-node-smartbrain/static/media/brain.87466cd4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b2d3d12.js",
+    "static/js/runtime-main.c0273d62.js",
     "static/css/2.eb45ad44.chunk.css",
     "static/js/2.2ef18312.chunk.js",
     "static/css/main.a9d60536.chunk.css",
-    "static/js/main.6615743e.chunk.js"
+    "static/js/main.49b270fe.chunk.js"
   ]
 }
